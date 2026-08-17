@@ -128,6 +128,12 @@ export default function Navbar() {
                             <span>06</span>
                             HOTELS
                         </Link>
+                        <Link to="/contact" onClick={closeMenu}>
+
+
+                            <span>07</span>
+                           Contact Us
+                        </Link>
 
                     </nav>
 
