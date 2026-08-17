@@ -3,6 +3,14 @@ import React, { useState } from "react";
 const clubs = [
     {
         id: "01",
+        name: "Egyptian Federation",
+        location: "Cairo, Egypt",
+        image: "/assets/6.jpg",
+        mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Egyptian+Croquet+Federation+Cairo+Egypt",
+    },
+    {
+        id: "02",
         name: "Gezira Club",
         location: "Cairo, Egypt",
         image: "/assets/1.jpg",
@@ -10,20 +18,12 @@ const clubs = [
             "https://www.google.com/maps/search/?api=1&query=Gezira+Club+Cairo+Egypt",
     },
     {
-        id: "02",
-        name: "Zamalek Club",
-        location: "Cairo, Egypt",
-        image: "/assets/2.jpg",
-        mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Zamalek+Club+Cairo+Egypt",
-    },
-    {
         id: "03",
-        name: "El Zohour Club",
+        name: "Shooting Club",
         location: "Cairo, Egypt",
-        image: "/assets/3.jpg",
+        image: "/assets/5.jpg",
         mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=El+Zohour+Club+Cairo+Egypt",
+            "https://www.google.com/maps/search/?api=1&query=Shooting+Club+Cairo+Egypt",
     },
     {
         id: "04",
@@ -35,30 +35,29 @@ const clubs = [
     },
     {
         id: "05",
-        name: "Shooting Club",
+        name: "Heliopolis Club",
         location: "Cairo, Egypt",
-        image: "/assets/5.jpg",
+        image: "/assets/8.jpg",
         mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Shooting+Club+Cairo+Egypt",
+            "https://www.google.com/maps/search/?api=1&query=Heliopolis+Club+Cairo+Egypt",
     },
     {
         id: "06",
-        name: "Egyptian Federation",
-        location: "Cairo, Egypt",
-        image: "/assets/6.jpg",
-        mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Egyptian+Croquet+Federation+Cairo+Egypt",
-    },
-    {
-        id: "07",
         name: "Nasr City Club",
         location: "Nasr City, Cairo",
         image: "/assets/7.jpg",
         mapsUrl:
             "https://www.google.com/maps/search/?api=1&query=Nasr+City+Club+Cairo+Egypt",
     },
+    {
+        id: "07",
+        name: "Zamalek Club",
+        location: "Cairo, Egypt",
+        image: "/assets/2.jpg",
+        mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Zamalek+Club+Cairo+Egypt",
+    },
 ];
-
 export default function Clubs() {
     const [selectedClub, setSelectedClub] = useState(clubs[0]);
 
