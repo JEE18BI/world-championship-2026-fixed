@@ -10,9 +10,31 @@ export default function Navbar() {
         <header className={`navbar ${menuOpen ? "menu-open" : ""}`}>
 
             <Link to="/" className="navbar-logo" onClick={closeMenu}>
+
                 <span className="logo-small">WCF</span>
-                <span className="logo-main">WORLD<br />CHAMPIONSHIP</span>
-                <span className="logo-year">2026</span>
+
+                <span className="logo-main">
+        WORLD<br />
+        CHAMPIONSHIP
+    </span>
+
+                <span className="logo-year">
+        2026
+    </span>
+                <span className="egypt-badge">
+
+    <img
+        src="/assets/egypt-flag.png"
+        alt="Egyptian flag"
+        className="egypt-flag"
+    />
+
+    <span className="egypt-name">
+        EGYPT
+    </span>
+
+</span>
+
             </Link>
 
 
@@ -42,6 +64,9 @@ export default function Navbar() {
 
                 <Link to="/hotels" className="nav-link">
                     HOTELS
+                </Link>
+                <Link to="/contact" className="nav-link">
+                    Contact Us
                 </Link>
 
             </nav>

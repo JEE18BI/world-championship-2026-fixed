@@ -10,6 +10,7 @@ import Hotels from "./pages/Hotels";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 export default function App() {
   return <>
       <ScrollToTop/>
