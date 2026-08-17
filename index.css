@@ -4879,3 +4879,14 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
 
     object-fit: cover;
 }
+.contact-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+
+    background: var(--line);
+
+    max-width: 1000px;
+}
