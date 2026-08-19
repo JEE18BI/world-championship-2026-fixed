@@ -5891,3 +5891,93 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
 
     font-size: 16px;
 }
+/* =========================================================
+   FIX — CAIRO PROGRAM MOBILE OVERFLOW
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .cairo-program {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cairo-packages,
+    .package-grid,
+    .package-card,
+    .package-details,
+    .package-detail-box,
+    .cairo-reservations {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .package-grid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .package-card {
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    .package-prices {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .package-prices div {
+        min-width: 0;
+    }
+
+    .package-prices strong {
+        white-space: nowrap;
+    }
+
+    .package-detail-box {
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    .package-detail-box ul {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .package-detail-box li {
+        overflow-wrap: break-word;
+    }
+
+    .cairo-reservations {
+        overflow: hidden;
+    }
+
+    .reservation-contacts {
+        max-width: 100%;
+    }
+
+    .reservation-contacts a {
+        overflow-wrap: anywhere;
+    }
+}
+@media (max-width: 900px) {
+
+    .package-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .package-card {
+        width: 100%;
+        min-width: 0;
+        min-height: 270px;
+        box-sizing: border-box;
+    }
+
+}
