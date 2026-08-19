@@ -388,5 +388,619 @@ export default function Hotels() {
           </div>
 
       </section>
+      {/* =========================================================
+    CAIRO CHAMPIONSHIP PROGRAM
+========================================================= */}
+
+      <section className="cairo-program">
+
+          <div className="cairo-program-header">
+
+              <div>
+            <span className="eyebrow">
+                02 / CAIRO PROGRAM
+            </span>
+
+                  <h2>
+                      CAIRO
+                      <br />
+                      <em>PROGRAM</em>
+                  </h2>
+              </div>
+
+              <div className="cairo-program-meta">
+                  <strong>11 NTS / 12 DAYS</strong>
+                  <span>19 — 30 NOV 2026</span>
+              </div>
+
+          </div>
+
+
+          {/* =====================================================
+        DAILY PROGRAM
+    ===================================================== */}
+
+          <div className="cairo-itinerary">
+
+              {/* 19 NOV */}
+
+              <div className="cairo-day">
+
+                  <div className="cairo-day-date">
+                      <strong>19</strong>
+                      <span>NOV · THU</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type included">
+                    ARRIVAL
+                </span>
+
+                      <h3>
+                          Arrival in Cairo ✈️
+                      </h3>
+
+                      <p>
+                          Airport meet & assist, private transfer to hotel,
+                          check-in and rest.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 20 NOV */}
+
+              <div className="cairo-day optional">
+
+                  <div className="cairo-day-date">
+                      <strong>20</strong>
+                      <span>NOV · FRI</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $112
+                </span>
+
+                      <h3>
+                          Old Cairo & Islamic Cairo
+                      </h3>
+
+                      <p>
+                          Citadel of Saladin, Mohamed Ali Mosque,
+                          Al-Azhar area and Khan El Khalili bazaar.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 21 NOV */}
+
+              <div className="cairo-day optional featured-day">
+
+                  <div className="cairo-day-date">
+                      <strong>21</strong>
+                      <span>NOV · SAT</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $161
+                </span>
+
+                      <h3>
+                          Pyramids & Grand Egyptian Museum ⭐
+                      </h3>
+
+                      <p>
+                          Early morning visit to Giza Pyramids, Sphinx
+                          and Valley Temple. Lunch. Afternoon at the
+                          Grand Egyptian Museum (GEM), including Grand
+                          Hall, Grand Stairs, main galleries and
+                          Tutankhamun galleries. Return to hotel
+                          in the evening.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 22 NOV */}
+
+              <div className="cairo-day optional">
+
+                  <div className="cairo-day-date">
+                      <strong>22</strong>
+                      <span>NOV · SUN</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $95
+                </span>
+
+                      <h3>
+                          Saqqara & Memphis
+                      </h3>
+
+                      <p>
+                          Step Pyramid of Djoser, tombs at Saqqara,
+                          ancient Memphis and Colossus of Ramses II.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 23 NOV */}
+
+              <div className="cairo-day optional">
+
+                  <div className="cairo-day-date">
+                      <strong>23</strong>
+                      <span>NOV · MON</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $110
+                </span>
+
+                      <h3>
+                          Cairo Highlights
+                      </h3>
+
+                      <p>
+                          Egyptian Museum in Tahrir Square, downtown Cairo,
+                          Nile Corniche and time for shopping.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 24 NOV */}
+
+              <div className="cairo-day free-day">
+
+                  <div className="cairo-day-date">
+                      <strong>24</strong>
+                      <span>NOV · TUE</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    FREE DAY
+                </span>
+
+                      <h3>
+                          Free / Leisure Day
+                      </h3>
+
+                      <p>
+                          Relax at hotel.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 25 NOV */}
+
+              <div className="cairo-day free-day">
+
+                  <div className="cairo-day-date">
+                      <strong>25</strong>
+                      <span>NOV · WED</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    FREE DAY
+                </span>
+
+                      <h3>
+                          Free / Leisure Day
+                      </h3>
+
+                      <p>
+                          Relax at hotel.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 26 NOV */}
+
+              <div className="cairo-day optional">
+
+                  <div className="cairo-day-date">
+                      <strong>26</strong>
+                      <span>NOV · THU</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $126
+                </span>
+
+                      <h3>
+                          Alexandria Day Trip
+                      </h3>
+
+                      <p>
+                          Full-day private excursion to Alexandria:
+                          Catacombs of Kom El Shoqafa, Pompey's Pillar,
+                          Qaitbay Citadel, Bibliotheca Alexandrina and
+                          seaside Corniche. Return to Cairo.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 27 NOV */}
+
+              <div className="cairo-day optional">
+
+                  <div className="cairo-day-date">
+                      <strong>27</strong>
+                      <span>NOV · FRI</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    OPTIONAL · $52
+                </span>
+
+                      <h3>
+                          Nile Dinner Cruise
+                      </h3>
+
+                      <p>
+                          Relaxed morning. Optional Nile dinner cruise
+                          with dinner and entertainment in the evening.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 28 NOV */}
+
+              <div className="cairo-day free-day">
+
+                  <div className="cairo-day-date">
+                      <strong>28</strong>
+                      <span>NOV · SAT</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    FREE DAY
+                </span>
+
+                      <h3>
+                          Free / Leisure Day
+                      </h3>
+
+                      <p>
+                          Relax at hotel.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 29 NOV */}
+
+              <div className="cairo-day free-day">
+
+                  <div className="cairo-day-date">
+                      <strong>29</strong>
+                      <span>NOV · SUN</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type">
+                    FREE DAY
+                </span>
+
+                      <h3>
+                          Free / Leisure Day
+                      </h3>
+
+                      <p>
+                          Relax at hotel.
+                      </p>
+
+                  </div>
+
+              </div>
+
+
+              {/* 30 NOV */}
+
+              <div className="cairo-day">
+
+                  <div className="cairo-day-date">
+                      <strong>30</strong>
+                      <span>NOV · MON</span>
+                  </div>
+
+                  <div className="cairo-day-content">
+
+                <span className="day-type included">
+                    DEPARTURE
+                </span>
+
+                      <h3>
+                          Departure ✈️
+                      </h3>
+
+                      <p>
+                          Breakfast, check-out and private transfer
+                          from hotel to Cairo International Airport
+                          according to flight time.
+                      </p>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+
+          {/* =====================================================
+        PACKAGE OPTIONS
+    ===================================================== */}
+
+          <div className="cairo-packages">
+
+              <div className="cairo-section-title">
+
+            <span className="eyebrow">
+                PACKAGE OPTIONS
+            </span>
+
+                  <h3>
+                      CHOOSE YOUR
+                      <br />
+                      <em>HOTEL.</em>
+                  </h3>
+
+              </div>
+
+
+              <div className="package-grid">
+
+
+                  {/* PRESIDENT */}
+
+                  <div className="package-card">
+
+                <span className="package-number">
+                    01
+                </span>
+
+                      <span className="package-label">
+                    OPTION 01
+                </span>
+
+                      <h4>
+                          PRESIDENT
+                          <br />
+                          <em>ZAMALEK HOTEL</em>
+                      </h4>
+
+                      <div className="package-prices">
+
+                          <div>
+                              <span>DOUBLE</span>
+                              <strong>$950</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                          <div>
+                              <span>SINGLE</span>
+                              <strong>$1,500</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+
+                  {/* HILTON ZAMALEK */}
+
+                  <div className="package-card">
+
+                <span className="package-number">
+                    02
+                </span>
+
+                      <span className="package-label">
+                    OPTION 02
+                </span>
+
+                      <h4>
+                          HILTON
+                          <br />
+                          <em>ZAMALEK HOTEL</em>
+                      </h4>
+
+                      <div className="package-prices">
+
+                          <div>
+                              <span>DOUBLE</span>
+                              <strong>$1,115</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                          <div>
+                              <span>SINGLE</span>
+                              <strong>$2,050</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+
+                  {/* GRAND NILE */}
+
+                  <div className="package-card package-featured">
+
+                <span className="package-number">
+                    03
+                </span>
+
+                      <span className="package-label">
+                    OPTION 03
+                </span>
+
+                      <h4>
+                          HILTON GRAND
+                          <br />
+                          <em>NILE TOWER</em>
+                      </h4>
+
+                      <div className="package-prices">
+
+                          <div>
+                              <span>DOUBLE</span>
+                              <strong>$1,500</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                          <div>
+                              <span>SINGLE</span>
+                              <strong>$2,600</strong>
+                              <small>PER PERSON</small>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+
+          {/* =====================================================
+        INCLUDED / EXCLUDED
+    ===================================================== */}
+
+          <div className="package-details">
+
+              <div className="package-detail-box">
+
+            <span className="eyebrow">
+                PACKAGE INCLUDES
+            </span>
+
+                  <ul>
+                      <li>11 nights hotel accommodation in Cairo</li>
+                      <li>Daily breakfast</li>
+                      <li>Private airport arrival transfer on 19 Nov</li>
+                      <li>Private airport departure transfer on 30 Nov</li>
+                  </ul>
+
+              </div>
+
+
+              <div className="package-detail-box excluded">
+
+            <span className="eyebrow">
+                PACKAGE EXCLUDES
+            </span>
+
+                  <ul>
+                      <li>Entry visa to Egypt ($40 per person and subject to any official increase)</li>
+                      <li>Any extra meals and beverages</li>
+                      <li>Personal expenses such as laundry and phone calls</li>
+                      <li>Tipping to guide, driver, etc.</li>
+                      <li>Any optional tours</li>
+                      <li>Domestic flight</li>
+                  </ul>
+
+              </div>
+
+          </div>
+
+
+          {/* =====================================================
+        RESERVATIONS
+    ===================================================== */}
+
+          <div className="cairo-reservations">
+
+        <span className="eyebrow">
+            RESERVATIONS & INQUIRIES
+        </span>
+
+              <h3>
+                  READY TO
+                  <br />
+                  <em>BOOK?</em>
+              </h3>
+
+              <p>
+                  For reservations or inquiries, please contact:
+              </p>
+
+              <div className="reservation-contacts">
+
+                  <a href="mailto:shereen.hanna@gattours.com">
+                      shereen.hanna@gattours.com
+                  </a>
+
+                  <a href="mailto:Hesham.seada@gattours.com">
+                      Hesham.seada@gattours.com
+                  </a>
+
+                  <a href="mailto:m.raslan7961@gmail.com">
+                      m.raslan7961@gmail.com
+                  </a>
+
+              </div>
+
+              <div className="reservation-subject">
+                  <span>EMAIL SUBJECT</span>
+                  <strong>
+                      World Crocquet Championship 2026
+                  </strong>
+              </div>
+
+          </div>
+
+      </section>
   </main>;
 }

@@ -5457,3 +5457,437 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
     }
 
 }
+/* =========================================================
+   CAIRO PROGRAM
+========================================================= */
+
+.cairo-program {
+    padding: 110px 8vw;
+
+    border-top: 1px solid var(--line);
+}
+
+
+/* HEADER */
+
+.cairo-program-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    margin-bottom: 70px;
+}
+
+.cairo-program-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(80px, 10vw, 145px);
+
+    line-height: 0.72;
+
+    margin: 25px 0 0;
+}
+
+.cairo-program-header h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.cairo-program-meta {
+    text-align: right;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.cairo-program-meta strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 25px;
+
+    color: var(--pink);
+}
+
+.cairo-program-meta span {
+    font-size: 8px;
+
+    letter-spacing: .16em;
+
+    color: var(--muted);
+}
+
+
+/* =========================================================
+   ITINERARY
+========================================================= */
+
+.cairo-itinerary {
+    border-top: 1px solid var(--line);
+}
+
+.cairo-day {
+    display: grid;
+
+    grid-template-columns: 150px 1fr;
+
+    gap: 45px;
+
+    padding: 30px 0;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.cairo-day-date {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 10px;
+}
+
+.cairo-day-date strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 52px;
+
+    line-height: .8;
+}
+
+.cairo-day-date span {
+    font-size: 7px;
+
+    letter-spacing: .12em;
+
+    color: var(--muted);
+}
+
+.cairo-day-content {
+    max-width: 800px;
+}
+
+.day-type {
+    font-size: 7px;
+
+    font-weight: 800;
+
+    letter-spacing: .17em;
+
+    color: var(--cyan);
+}
+
+.day-type.included {
+    color: var(--pink);
+}
+
+.cairo-day-content h3 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 34px;
+
+    line-height: .9;
+
+    margin: 10px 0 12px;
+}
+
+.cairo-day-content p {
+    max-width: 700px;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+
+    color: var(--muted);
+
+    margin: 0;
+}
+
+.featured-day {
+    background: rgba(255,255,255,.025);
+
+    margin: 0 -20px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+}
+
+
+/* =========================================================
+   PACKAGES
+========================================================= */
+
+.cairo-packages {
+    margin-top: 110px;
+}
+
+.cairo-section-title {
+    margin-bottom: 45px;
+}
+
+.cairo-section-title h3 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(65px, 8vw, 110px);
+
+    line-height: .75;
+
+    margin-top: 20px;
+}
+
+.cairo-section-title h3 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.package-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2px;
+
+    background: var(--line);
+}
+
+.package-card {
+    position: relative;
+
+    min-height: 330px;
+
+    padding: 30px;
+
+    background: #090711;
+}
+
+.package-featured {
+    background: #0d0917;
+}
+
+.package-number {
+    position: absolute;
+
+    top: 20px;
+
+    right: 25px;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 45px;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.12);
+}
+
+.package-label {
+    font-size: 7px;
+
+    letter-spacing: .18em;
+
+    color: var(--cyan);
+}
+
+.package-card h4 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 40px;
+
+    line-height: .78;
+
+    margin: 70px 0 40px;
+}
+
+.package-card h4 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.package-prices {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+    border-top: 1px solid var(--line);
+
+    padding-top: 20px;
+}
+
+.package-prices div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.package-prices span {
+    font-size: 7px;
+
+    letter-spacing: .12em;
+
+    color: var(--muted);
+}
+
+.package-prices strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 35px;
+
+    color: var(--pink);
+
+    margin: 3px 0;
+}
+
+.package-prices small {
+    font-size: 6px;
+
+    color: var(--muted);
+}
+
+
+/* =========================================================
+   DETAILS
+========================================================= */
+
+.package-details {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 2px;
+
+    margin-top: 2px;
+
+    background: var(--line);
+}
+
+.package-detail-box {
+    padding: 35px;
+
+    background: #090711;
+}
+
+.package-detail-box ul {
+    margin: 25px 0 0;
+
+    padding-left: 17px;
+}
+
+.package-detail-box li {
+    font-size: 10px;
+
+    line-height: 1.8;
+
+    color: var(--muted);
+
+    margin-bottom: 7px;
+}
+
+.package-detail-box.excluded {
+    background: #08070e;
+}
+
+
+/* =========================================================
+   RESERVATIONS
+========================================================= */
+
+.cairo-reservations {
+    margin-top: 100px;
+
+    padding: 60px;
+
+    border: 1px solid var(--line);
+
+    position: relative;
+}
+
+.cairo-reservations h3 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(65px, 8vw, 110px);
+
+    line-height: .72;
+
+    margin: 25px 0;
+}
+
+.cairo-reservations h3 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.cairo-reservations > p {
+    font-size: 11px;
+
+    color: var(--muted);
+}
+
+.reservation-contacts {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    margin-top: 25px;
+}
+
+.reservation-contacts a {
+    color: var(--cyan);
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 14px;
+
+    text-decoration: none;
+}
+
+.reservation-contacts a:hover {
+    color: white;
+}
+
+.reservation-subject {
+    margin-top: 35px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid var(--line);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.reservation-subject span {
+    font-size: 7px;
+
+    letter-spacing: .15em;
+
+    color: var(--muted);
+}
+
+.reservation-subject strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 16px;
+}
