@@ -5981,3 +5981,347 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
     }
 
 }
+/* =========================================================
+   QUALIFIER DETAILS
+========================================================= */
+
+.qualifier-intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.qualifier-intro h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(75px, 9vw, 130px);
+
+    line-height: .75;
+
+    margin: 25px 0;
+}
+
+.qualifier-intro h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.qualifier-intro p {
+    max-width: 650px;
+
+    font-size: 12px;
+
+    line-height: 1.8;
+
+    color: var(--muted);
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================================================
+   DETAILS
+========================================================= */
+
+.qualifier-details {
+    padding: 100px 8vw;
+
+    border-top: 1px solid var(--line);
+}
+
+.qualifier-details-header {
+    margin-bottom: 55px;
+}
+
+.qualifier-details-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(70px, 9vw, 125px);
+
+    line-height: .74;
+
+    margin-top: 25px;
+}
+
+.qualifier-details-header h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+
+.qualifier-info-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2px;
+
+    background: var(--line);
+}
+
+.qualifier-info-card {
+    min-height: 190px;
+
+    padding: 28px;
+
+    background: #090711;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.qualifier-info-card > span {
+    font-size: 7px;
+
+    font-weight: 800;
+
+    letter-spacing: .17em;
+
+    color: var(--cyan);
+}
+
+.qualifier-info-card strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 30px;
+
+    line-height: .9;
+
+    margin-top: 25px;
+}
+
+.qualifier-info-card small {
+    font-size: 7px;
+
+    color: var(--muted);
+
+    letter-spacing: .08em;
+
+    margin-top: 15px;
+}
+
+
+/* =========================================================
+   IMPORTANT DATES
+========================================================= */
+
+.qualifier-dates {
+    padding: 100px 8vw;
+
+    border-top: 1px solid var(--line);
+}
+
+.qualifier-dates-header {
+    margin-bottom: 55px;
+}
+
+.qualifier-dates-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(70px, 9vw, 125px);
+
+    line-height: .74;
+
+    margin-top: 25px;
+}
+
+.qualifier-dates-header h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.date-row {
+    display: grid;
+
+    grid-template-columns: 100px 1fr;
+
+    gap: 35px;
+
+    padding: 28px 0;
+
+    border-top: 1px solid var(--line);
+}
+
+.date-number {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 50px;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px var(--pink);
+}
+
+.date-info span {
+    font-size: 7px;
+
+    letter-spacing: .17em;
+
+    color: var(--cyan);
+}
+
+.date-info h3 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 32px;
+
+    line-height: .9;
+
+    margin: 10px 0 0;
+}
+
+
+/* =========================================================
+   REGISTRATION
+========================================================= */
+
+.qualifier-registration {
+    padding: 100px 8vw;
+
+    border-top: 1px solid var(--line);
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+}
+
+.registration-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(70px, 9vw, 125px);
+
+    line-height: .74;
+
+    margin: 25px 0;
+}
+
+.registration-header h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.7);
+}
+
+.registration-header p {
+    max-width: 450px;
+
+    font-size: 11px;
+
+    line-height: 1.8;
+
+    color: var(--muted);
+}
+
+.registration-contact {
+    padding: 30px;
+
+    border: 1px solid var(--line);
+
+    align-self: start;
+}
+
+.registration-contact > span {
+    font-size: 7px;
+
+    letter-spacing: .17em;
+
+    color: var(--muted);
+}
+
+.registration-contact a {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 15px;
+
+    color: var(--cyan);
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 24px;
+
+    text-decoration: none;
+
+    word-break: break-word;
+}
+
+.registration-contact a strong {
+    font-size: 20px;
+}
+
+.registration-contact a:hover {
+    color: white;
+}
+
+
+.registration-instructions {
+    grid-column: 1 / -1;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+
+    background: var(--line);
+}
+
+.registration-instructions > div {
+    display: grid;
+
+    grid-template-columns: 45px 1fr;
+
+    gap: 15px;
+
+    padding: 25px;
+
+    background: #090711;
+}
+
+.registration-instructions span {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 30px;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px var(--pink);
+}
+
+.registration-instructions p {
+    font-size: 10px;
+
+    line-height: 1.7;
+
+    color: var(--muted);
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   SIGNUP SECTION
+========================================================= */
+
+.qualifier-signup-section {
+    padding-top: 70px;
+
+    padding-bottom: 100px;
+}
