@@ -216,7 +216,7 @@ export default function Qualifier() {
                         <h3>
                             ON OR BEFORE
                             <br />
-                            14 SEPTEMBER 2026
+                            30 SEPTEMBER 2026
                         </h3>
 
                     </div>
