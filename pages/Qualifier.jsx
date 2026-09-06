@@ -164,7 +164,7 @@ export default function Qualifier() {
                         <span>ALLOCATION DATE</span>
 
                         <strong>
-                            14 SEP
+                            30 SEP
                             <br />
                             2026
                         </strong>
