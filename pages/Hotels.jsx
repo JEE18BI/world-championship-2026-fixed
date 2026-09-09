@@ -291,7 +291,7 @@ export default function Hotels() {
                       <span>DELUXE SINGLE</span>
 
                       <strong>
-                          $120
+                          $110
                       </strong>
 
                       <small>
@@ -306,7 +306,7 @@ export default function Hotels() {
                       <span>DELUXE DOUBLE</span>
 
                       <strong>
-                          $140
+                          $130
                       </strong>
 
                       <small>
