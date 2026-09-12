@@ -273,6 +273,67 @@ export default function EgyptianOpen() {
                     </p>
 
                 </div>
+                {/* =================================================
+    CONTACT
+================================================= */}
+
+                <section className="egyptian-open-cta">
+
+                    <div className="egyptian-open-cta-content">
+
+        <span className="eyebrow">
+            QUESTIONS · REGISTRATION · INFORMATION
+        </span>
+
+                        <h2>
+                            GET IN
+                            <br />
+                            <em>TOUCH.</em>
+                        </h2>
+
+                        <p>
+                            For questions about the Egyptian Open, registration,
+                            tournament details or arrangements, please contact
+                            the organizing team.
+                        </p>
+
+                    </div>
+
+
+
+                </section>
+                <div className="egyptian-open-contact">
+
+                    <a
+                        href="mailto:m.raslan7961@gmail.com"
+                        className="egyptian-open-contact-item"
+                    >
+                        <span>EMAIL</span>
+
+                        <strong>
+                            m.raslan7961@gmail.com
+                        </strong>
+
+                        <b>↗</b>
+                    </a>
+
+
+                    <a
+                        href="https://wa.me/201005252523"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="egyptian-open-contact-item"
+                    >
+                        <span>WHATSAPP</span>
+
+                        <strong>
+                            +20 100 525 2523
+                        </strong>
+
+                        <b>↗</b>
+                    </a>
+
+                </div>
 
 
                 <div className="egyptian-open-status">

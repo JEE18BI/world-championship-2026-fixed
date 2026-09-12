@@ -8730,3 +8730,305 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
         box-sizing: border-box;
     }
 }
+/* =========================================================
+   EGYPTIAN OPEN — CONTACT
+========================================================= */
+
+.egyptian-open-cta {
+    padding: 110px 8vw;
+
+    display: grid;
+
+    grid-template-columns: 1fr .8fr;
+
+    gap: 100px;
+
+    align-items: end;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.egyptian-open-cta-content h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(90px, 11vw, 160px);
+
+    line-height: .68;
+
+    letter-spacing: -.04em;
+
+    margin: 25px 0;
+}
+
+.egyptian-open-cta-content h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.75);
+}
+
+.egyptian-open-cta-content p {
+    max-width: 470px;
+
+    font-size: 10px;
+
+    line-height: 1.8;
+
+    color: var(--muted);
+}
+
+
+/* CONTACT ITEMS */
+
+.egyptian-open-contact {
+
+
+
+    border-top: 1px solid var(--line);
+}
+
+.egyptian-open-contact-item {
+
+
+    display: grid;
+
+
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 25px 0;
+
+    border-bottom: 1px solid var(--line);
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: padding .25s ease;
+}
+
+.egyptian-open-contact-item span {
+    font-size: 7px;
+
+    letter-spacing: .16em;
+
+    color: var(--cyan);
+}
+
+.egyptian-open-contact-item strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 22px;
+
+    font-weight: 500;
+
+    overflow-wrap: anywhere;
+}
+
+.egyptian-open-contact-item b {
+    font-size: 16px;
+
+    font-weight: 400;
+
+    color: var(--pink);
+
+    text-align: right;
+}
+
+.egyptian-open-contact-item:hover {
+    padding-left: 10px;
+
+    color: var(--cyan);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .egyptian-open-cta {
+        display: block;
+
+        padding: 65px 7vw;
+    }
+
+    .egyptian-open-cta-content h2 {
+        font-size: 16vw;
+
+        line-height: .7;
+    }
+
+    .egyptian-open-cta-content p {
+        font-size: 9px;
+
+        line-height: 1.75;
+
+        margin-bottom: 40px;
+    }
+
+    .egyptian-open-contact-item {
+
+        gap: 10px;
+
+        padding: 20px 0;
+    }
+
+    .egyptian-open-contact-item strong {
+        font-size: 16px;
+    }
+
+    .egyptian-open-contact-item span {
+        font-size: 6px;
+    }
+
+}
+/* =========================================================
+   EGYPTIAN OPEN — CONTACT ROW
+========================================================= */
+
+.egyptian-open-contact-section {
+    width: 100%;
+
+    padding: 90px 8vw;
+
+    display: grid;
+
+    grid-template-columns: .8fr 1.2fr;
+
+    gap: 100px;
+
+    align-items: end;
+
+    box-sizing: border-box;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.egyptian-open-contact-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: clamp(80px, 9vw, 140px);
+
+    line-height: .7;
+
+    letter-spacing: -.04em;
+
+    margin: 25px 0 0;
+}
+
+.egyptian-open-contact-header h2 em {
+    font-style: normal;
+
+    color: transparent;
+
+    -webkit-text-stroke: 1px rgba(255,255,255,.75);
+}
+
+
+/* CONTACT DETAILS */
+
+.egyptian-open-contact-details {
+    width: 100%;
+
+    border-top: 1px solid var(--line);
+}
+
+.egyptian-open-contact-item {
+    display: grid;
+
+    grid-template-columns: 90px 1fr 30px;
+
+    align-items: center;
+
+    gap: 20px;
+
+    width: 100%;
+
+    padding: 25px 0;
+
+    box-sizing: border-box;
+
+    border-bottom: 1px solid var(--line);
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: padding .25s ease;
+}
+
+.egyptian-open-contact-item span {
+    font-size: 7px;
+
+    letter-spacing: .16em;
+
+    color: var(--cyan);
+}
+
+.egyptian-open-contact-item strong {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 24px;
+
+    font-weight: 500;
+
+    overflow-wrap: anywhere;
+}
+
+.egyptian-open-contact-item b {
+    font-size: 17px;
+
+    font-weight: 400;
+
+    color: var(--pink);
+
+    text-align: right;
+}
+
+.egyptian-open-contact-item:hover {
+    padding-left: 12px;
+
+    color: var(--cyan);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .egyptian-open-contact-section {
+        display: block;
+
+        padding: 65px 7vw;
+    }
+
+    .egyptian-open-contact-header h2 {
+        font-size: 16vw;
+
+        margin-bottom: 45px;
+    }
+
+    .egyptian-open-contact-item {
+        grid-template-columns: 65px minmax(0, 1fr) 20px;
+
+        gap: 10px;
+
+        padding: 20px 0;
+    }
+
+    .egyptian-open-contact-item strong {
+        font-size: 16px;
+    }
+
+    .egyptian-open-contact-item span {
+        font-size: 6px;
+    }
+
+}

@@ -301,8 +301,8 @@ export default function Qualifier() {
                         ECF EMAIL
                     </span>
 
-                    <a href="mailto:m.raslan@egycf.com">
-                        m.raslan@egycf.com
+                    <a href="mailto:m.raslan7961@gmail.com">
+                        m.raslan7961@gmail.com
                         <strong>↗</strong>
                     </a>
 
