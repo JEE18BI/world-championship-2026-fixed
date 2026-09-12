@@ -33,6 +33,55 @@ export default function Home() {
         <Link to="/clubs" className="feature-card"><span>03</span><h3>CLUBS &<br/>VENUES</h3><p>Discover where championship play takes place.</p><b>VIEW CLUBS ↗</b></Link>
         <Link to="/hotels" className="feature-card"><span>04</span><h3>WHERE<br/>TO STAY</h3><p>Accommodation for players and visitors.</p><b>FIND A HOTEL ↗</b></Link>
       </section>
+        <section className="home-open-section">
+
+            <div className="home-open-top">
+                <span className="eyebrow">02 / AFTER THE WORLDS</span>
+                <span className="home-open-location">EGYPT · 2026</span>
+            </div>
+
+            <div className="home-open-main">
+
+                <div>
+                    <h2>
+                        THE GAME
+                        <br />
+                        DOESN'T
+                        <br />
+                        <em>END HERE.</em>
+                    </h2>
+                </div>
+
+                <div className="home-open-info">
+
+                    <span className="eyebrow">NEXT EVENT</span>
+
+                    <h3>
+                        EGYPTIAN
+                        <br />
+                        OPEN
+                    </h3>
+
+                    <div className="home-open-date">
+                        <strong>01 — 08</strong>
+                        <span>DECEMBER 2026</span>
+                    </div>
+
+                    <div className="home-open-entry">
+                        <span>ENTRY FEE</span>
+                        <strong>$200 USD</strong>
+                    </div>
+
+                    <Link to="/egyptianopen">
+                        EXPLORE THE EGYPTIAN OPEN
+                        <span>↗</span>
+                    </Link>
+
+                </div>
+
+            </div>
+
+        </section>
     </main>
   );
 }

@@ -68,6 +68,9 @@ export default function Navbar() {
                 <Link to="/contact" className="nav-link">
                     Contact Us
                 </Link>
+                <Link to="/egyptianopen" className="nav-link egyptian-open-nav">
+                    EGYPTIAN OPEN
+                </Link>
 
             </nav>
 
@@ -133,6 +136,12 @@ export default function Navbar() {
 
                             <span>07</span>
                            Contact Us
+                        </Link>
+                        <Link to="/egyptianopen" onClick={closeMenu}>
+
+
+                            <span>07</span>
+                           Egypt Open
                         </Link>
 
                     </nav>

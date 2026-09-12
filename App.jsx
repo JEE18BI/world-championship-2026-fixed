@@ -10,7 +10,7 @@ import Hotels from "./pages/Hotels";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
-
+import EgyptianOpen from "./pages/EgyptianOpen";
 export default function App() {
   return <>
       <ScrollToTop/>
@@ -23,6 +23,8 @@ export default function App() {
       <Route path="/players" element={<Players />} />
       <Route path="/hotels" element={<Hotels />} />
       <Route path="/contact" element={<Contact />} />
+        <Route path="/egyptianopen" element={<EgyptianOpen/>}/>
+
     </Routes>
     <Footer />
   </>;
