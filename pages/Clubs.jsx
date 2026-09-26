@@ -57,6 +57,14 @@ const clubs = [
         mapsUrl:
             "https://www.google.com/maps/search/?api=1&query=Zamalek+Club+Cairo+Egypt",
     },
+    {
+        id: "08",
+        name: "El Zohour Club",
+        location: "Cairo, Egypt",
+        image: "/assets/3.jpg",
+        mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Zamalek+Club+Cairo+Egypt",
+    },
 ];
 export default function Clubs() {
     const [selectedClub, setSelectedClub] = useState(clubs[0]);
