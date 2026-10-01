@@ -9179,3 +9179,32 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
         font-size: 9px;
     }
 }
+@media (max-width: 600px) {
+    .feature-card {
+        height: auto;
+        min-height: 0;
+        padding: 24px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-card h3 {
+        position: static;
+        height: auto;
+        line-height: 1.1;
+        margin: 0 0 14px;
+        margin-bottom: 25px;
+        overflow-wrap: break-word;
+    }
+     .feature-card b{
+    margin-bottom: 20px;
+}
+    .feature-card p {
+        position: static;
+        margin: 0;
+        font-size: 12px;
+        line-height: 1.6;
+        color: var(--muted);
+        margin-top: 20px;
+    }
+}
