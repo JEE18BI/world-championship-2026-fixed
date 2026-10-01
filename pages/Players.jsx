@@ -12,7 +12,7 @@ const memberPlaces = [
     { rank: 5, player: "Michael Lauer", country: "New Zealand", grade: "2052" },
     { rank: 6, player: "Otkar Stankus", country: "Czech Moravia", grade: "2193" },
     { rank: 7, player: "Hans Johansson", country: "Sweden", grade: "1877" },
-    { rank: 8, player: "Stefan Anour", country: "Sweden", grade: "2039" },
+    { rank: 8, player: "Magnus Gunnarsson", country: "Sweden", grade: "1929" },
     { rank: 9, player: "Viggo Olsen", country: "Norway", grade: "1772" },
     { rank: 10, player: "Ian Sexton", country: "Switzerland", grade: "2139" },
     { rank: 11, player: "Juan Ojeda", country: "Spain", grade: "2325" },
