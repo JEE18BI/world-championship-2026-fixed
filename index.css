@@ -9032,3 +9032,150 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
     }
 
 }
+
+/* =========================================================
+   QUALIFIER PLAYERS
+========================================================= */
+
+.qualifier-players {
+    padding: 100px 8vw;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+}
+
+.qualifier-players-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 45px;
+}
+
+.qualifier-players-header h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(75px, 9vw, 130px);
+    line-height: .72;
+    margin: 25px 0 0;
+}
+
+.qualifier-players-header h2 em {
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255,.75);
+}
+
+.qualifier-players-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    text-align: right;
+}
+
+.qualifier-players-meta strong {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 55px;
+    line-height: 1;
+    color: var(--cyan);
+}
+
+.qualifier-players-meta span,
+.qualifier-players-meta small {
+    font-size: 7px;
+    letter-spacing: .14em;
+    color: var(--muted);
+}
+
+.qualifier-players-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+}
+
+.qualifier-players-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    text-align: center;
+}
+
+.qualifier-players-table th {
+    padding: 16px 12px;
+    background: rgba(255,255,255,.04);
+    color: var(--cyan);
+    font-size: 8px;
+    letter-spacing: .14em;
+    font-weight: 600;
+}
+
+.qualifier-players-table td {
+    padding: 13px 12px;
+    border-top: 1px solid var(--line);
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.qualifier-players-table tbody tr {
+    transition: background .2s ease;
+}
+
+.qualifier-players-table tbody tr:hover {
+    background: rgba(0,220,255,.05);
+}
+
+.qualifier-players-table .qualifier-player-name {
+    color: white;
+    font-weight: 600;
+    text-align: left;
+}
+
+.qualifier-players-note {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 8px;
+    letter-spacing: .04em;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+    .qualifier-players {
+        padding: 65px 7vw;
+    }
+
+    .qualifier-players-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .qualifier-players-header h2 {
+        font-size: 16vw;
+    }
+
+    .qualifier-players-meta {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .qualifier-players-meta strong {
+        font-size: 42px;
+    }
+
+    .qualifier-players-table {
+        min-width: 560px;
+    }
+
+    .qualifier-players-table th {
+        padding: 13px 8px;
+        font-size: 7px;
+    }
+
+    .qualifier-players-table td {
+        padding: 12px 8px;
+        font-size: 9px;
+    }
+}

@@ -1,5 +1,38 @@
 import React from "react";
 
+export const qualifierPlayers = [
+    { no: 1, name: "Ahmed Eltaweel", grade: 2331, worldRank: 113, country: "Egypt" },
+    { no: 2, name: "Kamal Ashraf", grade: 2277, worldRank: 159, country: "Egypt" },
+    { no: 3, name: "Salah Hassan", grade: 2222, worldRank: 236, country: "Egypt" },
+    { no: 4, name: "Manal Khodeir", grade: 2218, worldRank: 245, country: "Egypt" },
+    { no: 5, name: "Hossam Elatfy", grade: 2215, worldRank: 252, country: "Egypt" },
+    { no: 6, name: "Sherif Eltarahony", grade: 2182, worldRank: 320, country: "Egypt" },
+    { no: 7, name: "Mohamed Abelnour", grade: 2171, worldRank: 342, country: "Egypt" },
+    { no: 8, name: "Gabrielle Higgins", grade: 2168, worldRank: 348, country: "England" },
+    { no: 9, name: "Youssef Elsewify", grade: 2166, worldRank: 353, country: "Egypt" },
+    { no: 10, name: "Peter Payne", grade: 2139, worldRank: 429, country: "Switzerland" },
+    { no: 11, name: "May Aly Maher", grade: 2134, worldRank: 442, country: "Egypt" },
+    { no: 12, name: "Begona Elzahuru", grade: 2131, worldRank: 448, country: "Spain" },
+    { no: 13, name: "Hazem Zaghloul", grade: 2126, worldRank: 461, country: "Egypt" },
+    { no: 14, name: "Hossam Elsaid", grade: 2125, worldRank: 463, country: "Egypt" },
+    { no: 15, name: "Ahmed Alshurafa", grade: 2088, worldRank: 581, country: "Canada" },
+    { no: 16, name: "Amr Elsweify", grade: 2079, worldRank: 613, country: "Egypt" },
+    { no: 17, name: "Tomass Freimanis", grade: 2016, worldRank: 872, country: "Latvia" },
+    { no: 18, name: "Alfonso Ayuso", grade: 2005, worldRank: 938, country: "Spain" },
+    { no: 19, name: "Samy Ahmed", grade: 1973, worldRank: 1186, country: "Egypt" },
+    { no: 20, name: "Sherif Abuosbaa", grade: 1968, worldRank: 1226, country: "Egypt" },
+    { no: 21, name: "Pilar Plasencia", grade: 1959, worldRank: 1286, country: "Spain" },
+    { no: 22, name: "Aly Ramadan", grade: 1957, worldRank: 1304, country: "Egypt" },
+    { no: 23, name: "Aly Radwan", grade: 1948, worldRank: 1385, country: "Egypt" },
+    { no: 24, name: "Abobakr Yousif", grade: 1930, worldRank: 1529, country: "Egypt" },
+    { no: 25, name: "Salah Taher", grade: 1910, worldRank: 1694, country: "Egypt" },
+    { no: 26, name: "Tarek Sahmoud", grade: 1809, worldRank: 2697, country: "Egypt" },
+    { no: 27, name: "Richard Stokoe", grade: 1773, worldRank: 3207, country: "England" },
+    { no: 28, name: "Manuel Marcos Fal", grade: 1653, worldRank: 4884, country: "Spain" },
+    { no: 29, name: "Sarah Persons", grade: 1638, worldRank: 5094, country: "USA" },
+    { no: 30, name: "Pilar Prado Latorre", grade: 1410, worldRank: 8891, country: "Spain" },
+];
+
 export default function Qualifier() {
     return (
         <main className="page qualifier-page">
@@ -385,6 +418,109 @@ export default function Qualifier() {
                 </div>
 
             </section>
+
+            <section className="qualifier-players">
+                <div className="qualifier-players-header">
+                    <div>
+                        <span className="eyebrow">GCWC EGYPT 2026</span>
+                        <h2>
+                            THE
+                            <br />
+                            <em>PLAYERS.</em>
+                        </h2>
+                    </div>
+
+                    <div className="qualifier-players-meta">
+                        <strong>{qualifierPlayers.length}</strong>
+                        <span>REGISTERED PLAYERS</span>
+                        <small>UPDATED 30 SEPTEMBER 2026 · 5:00 PM</small>
+                    </div>
+                </div>
+
+                <div className="qualifier-players-table-wrap">
+                    <table className="qualifier-players-table">
+                        <thead>
+                        <tr>
+                            <th>NO.</th>
+                            <th>NAME</th>
+                            <th>D.G.</th>
+                            <th>W. RANK</th>
+                            <th>COUNTRY</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        {qualifierPlayers.map((player) => (
+                            <tr key={player.no}>
+                                <td>{String(player.no).padStart(2, "0")}</td>
+                                <td className="qualifier-player-name">
+                                    {player.name}
+                                </td>
+                                <td>{player.grade}</td>
+                                <td>{player.worldRank}</td>
+                                <td>{player.country}</td>
+                            </tr>
+                        ))}
+                        </tbody>
+                    </table>
+                </div>
+
+                <p className="qualifier-players-note">
+                    Player list and ranking information as of the update shown above.
+                </p>
+            </section>
+
+            <section className="qualifier-players">
+                <div className="qualifier-players-header">
+                    <div>
+                        <span className="eyebrow">GCWC EGYPT 2026</span>
+                        <h2>
+                            THE
+                            <br />
+                            <em>PLAYERS.</em>
+                        </h2>
+                    </div>
+
+                    <div className="qualifier-players-meta">
+                        <strong>{qualifierPlayers.length}</strong>
+                        <span>REGISTERED PLAYERS</span>
+                        <small>UPDATED 30 SEPTEMBER 2026 · 5:00 PM</small>
+                    </div>
+                </div>
+
+                <div className="qualifier-players-table-wrap">
+                    <table className="qualifier-players-table">
+                        <thead>
+                        <tr>
+                            <th>NO.</th>
+                            <th>NAME</th>
+                            <th>D.G.</th>
+                            <th>W. RANK</th>
+                            <th>COUNTRY</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        {qualifierPlayers.map((player) => (
+                            <tr key={player.no}>
+                                <td>{String(player.no).padStart(2, "0")}</td>
+                                <td className="qualifier-player-name">
+                                    {player.name}
+                                </td>
+                                <td>{player.grade}</td>
+                                <td>{player.worldRank}</td>
+                                <td>{player.country}</td>
+                            </tr>
+                        ))}
+                        </tbody>
+                    </table>
+                </div>
+
+                <p className="qualifier-players-note">
+                    Player list and ranking information as of the update shown above.
+                </p>
+            </section>
+
 
         </main>
     );
