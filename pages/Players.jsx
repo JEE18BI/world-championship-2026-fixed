@@ -112,7 +112,7 @@ export default function Players() {
             </span>
 
                         <h2>
-                            THE FIRST NAMES
+                            THE PLAYERS
                             <br />
                             <span>ON THE ROAD TO THE TITLE.</span>
                         </h2>
@@ -166,98 +166,98 @@ export default function Players() {
           MEMBER PLACES
       ================================================= */}
 
-            <section className="content-section member-places-section">
+            {/*<section className="content-section member-places-section">*/}
 
-                <div className="section-heading member-places-heading">
+            {/*    <div className="section-heading member-places-heading">*/}
 
-                    <div>
+            {/*        <div>*/}
 
-            <span className="eyebrow">
-              MEMBER PLACES
-            </span>
+            {/*<span className="eyebrow">*/}
+            {/*  MEMBER PLACES*/}
+            {/*</span>*/}
 
-                        <h2>
-                            MEMBER
-                            <br />
-                            <span>PLACES.</span>
-                        </h2>
+            {/*            <h2>*/}
+            {/*                MEMBER*/}
+            {/*                <br />*/}
+            {/*                <span>PLACES.</span>*/}
+            {/*            </h2>*/}
 
-                    </div>
+            {/*        </div>*/}
 
-                    <p>
-                        The following players have qualified for the Golf Croquet
-                        World Championship 2026 through their ranking and
-                        membership places.
-                    </p>
+            {/*        <p>*/}
+            {/*            The following players have qualified for the Golf Croquet*/}
+            {/*            World Championship 2026 through their ranking and*/}
+            {/*            membership places.*/}
+            {/*        </p>*/}
 
-                </div>
-
-
-                {/* MEMBER PLACES TABLE */}
-
-                <div className="member-table-wrapper">
-
-                    <table className="member-table">
-
-                        <thead>
-
-                        <tr>
-
-                            <th>#</th>
-
-                            <th>
-                                PLAYER
-                            </th>
-
-                            <th>
-                                COUNTRY
-                            </th>
-
-                            <th>
-                                D GRADE
-                                <span>
-                    12/8/2026
-                  </span>
-                            </th>
-
-                        </tr>
-
-                        </thead>
+            {/*    </div>*/}
 
 
-                        <tbody>
+            {/*    /!* MEMBER PLACES TABLE *!/*/}
 
-                        {memberPlaces.map(p => (
+            {/*    <div className="member-table-wrapper">*/}
 
-                            <tr key={p.rank}>
+            {/*        <table className="member-table">*/}
 
-                                <td>
-                                    {p.rank}
-                                </td>
+            {/*            <thead>*/}
 
-                                <td>
-                                    {p.player}
-                                </td>
+            {/*            <tr>*/}
 
-                                <td>
-                                    {p.country}
-                                </td>
+            {/*                <th>#</th>*/}
 
-                                <td>
-                                    {p.grade}
-                                </td>
+            {/*                <th>*/}
+            {/*                    PLAYER*/}
+            {/*                </th>*/}
 
-                            </tr>
+            {/*                <th>*/}
+            {/*                    COUNTRY*/}
+            {/*                </th>*/}
 
-                        ))}
+            {/*                <th>*/}
+            {/*                    D GRADE*/}
+            {/*                    <span>*/}
+            {/*        12/8/2026*/}
+            {/*      </span>*/}
+            {/*                </th>*/}
 
-                        </tbody>
+            {/*            </tr>*/}
 
-                    </table>
+            {/*            </thead>*/}
 
-                </div>
 
-            </section>
+            {/*            <tbody>*/}
+
+            {/*            {memberPlaces.map(p => (*/}
+
+            {/*                <tr key={p.rank}>*/}
+
+            {/*                    <td>*/}
+            {/*                        {p.rank}*/}
+            {/*                    </td>*/}
+
+            {/*                    <td>*/}
+            {/*                        {p.player}*/}
+            {/*                    </td>*/}
+
+            {/*                    <td>*/}
+            {/*                        {p.country}*/}
+            {/*                    </td>*/}
+
+            {/*                    <td>*/}
+            {/*                        {p.grade}*/}
+            {/*                    </td>*/}
+
+            {/*                </tr>*/}
+
+            {/*            ))}*/}
+
+            {/*            </tbody>*/}
+
+            {/*        </table>*/}
+
+            {/*    </div>*/}
+
+            {/*</section>*/}
 
 
             {/* =================================================
@@ -330,26 +330,26 @@ export default function Players() {
           QUALIFICATION NOTE
       ================================================= */}
 
-            <section className="content-section qualification-note">
+        {/*    <section className="content-section qualification-note">*/}
 
-        <span className="eyebrow">
-          ABOUT RANKING PLACES
-        </span>
+        {/*<span className="eyebrow">*/}
+        {/*  ABOUT RANKING PLACES*/}
+        {/*</span>*/}
 
-                <h2>
-                    OFFICIAL
-                    <br />
-                    <em>ALLOCATION</em>
-                </h2>
+        {/*        <h2>*/}
+        {/*            OFFICIAL*/}
+        {/*            <br />*/}
+        {/*            <em>ALLOCATION</em>*/}
+        {/*        </h2>*/}
 
-                <p>
-                    Ranking-place information is presented for the 2026
-                    championship. Final qualification rules, allocation dates
-                    and official regulations should be confirmed against the
-                    World Croquet Federation's published event information.
-                </p>
+        {/*        <p>*/}
+        {/*            Ranking-place information is presented for the 2026*/}
+        {/*            championship. Final qualification rules, allocation dates*/}
+        {/*            and official regulations should be confirmed against the*/}
+        {/*            World Croquet Federation's published event information.*/}
+        {/*        </p>*/}
 
-            </section>
+        {/*    </section>*/}
 
         </main>
     );
