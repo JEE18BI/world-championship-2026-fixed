@@ -1,15 +1,28 @@
+
 export default function PlayerCard({ player }) {
-  return (
-    <article className="player-card">
-      <div className="rank">{String(player.rank).padStart(2, "0")}</div>
-      <div className="player-info">
-        <h3>{player.name}</h3>
-        <span>{player.country} · {player.countryName}</span>
-      </div>
-      <div className="maxdg">
-        <small>MAXDG</small>
-        <strong>{player.maxDG}</strong>
-      </div>
-    </article>
-  );
+    const fullName = player.name ||
+        `${player.firstName} ${player.lastName}`;
+
+    return (
+        <article className="player-card">
+            <div className="rank">
+                {String(player.rank ?? player.number ?? "").padStart(2, "0")}
+            </div>
+
+            <div className="player-info">
+                <h3>{fullName}</h3>
+
+                <span>
+          {player.country}
+                    {player.countryName ? ` · ${player.countryName}` : ""}
+        </span>
+
+                {player.category && (
+                    <span className="player-category">
+            {player.category}
+          </span>
+                )}
+            </div>
+        </article>
+    );
 }
