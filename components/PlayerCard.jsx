@@ -5,9 +5,7 @@ export default function PlayerCard({ player }) {
 
     return (
         <article className="player-card">
-            <div className="rank">
-                {String(player.rank ?? player.number ?? "").padStart(2, "0")}
-            </div>
+
 
             <div className="player-info">
                 <h3>{fullName}</h3>

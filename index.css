@@ -9522,16 +9522,16 @@ a{text-decoration:none;color:inherit} button{font:inherit}.site-nav{height:82px;
     }
 
     .qualifier-players-table thead th {
-        font-size: 0.4rem !important;
+        font-size: 0.5rem !important;
         padding: 6px 5px !important;
     }
 
     .qualifier-players-table tbody td {
-        font-size: 0.4rem !important;
+        font-size: 0.5rem !important;
 
     }
 
     .qualifier-players-table .qualifier-player-name {
-        font-size: 0.4rem !important;
+        font-size: 0.5rem !important;
     }
 }
