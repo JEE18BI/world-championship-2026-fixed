@@ -63,7 +63,7 @@ const clubs = [
         location: "Cairo, Egypt",
         image: "/assets/3.jpg",
         mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Zamalek+Club+Cairo+Egypt",
+            "https://maps.app.goo.gl/8AsrLRFBL6bMMpWy8",
     },
 ];
 export default function Clubs() {
