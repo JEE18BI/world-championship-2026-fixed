@@ -23,7 +23,7 @@ const clubs = [
         location: "Cairo, Egypt",
         image: "/assets/5.jpg",
         mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Shooting+Club+Cairo+Egypt",
+            "https://maps.app.goo.gl/XVML3i8ooPerEsT57?g_st=iw",
     },
     {
         id: "04",
