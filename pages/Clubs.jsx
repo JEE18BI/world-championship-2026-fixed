@@ -63,7 +63,7 @@ const clubs = [
         location: "Cairo, Egypt",
         image: "/assets/3.jpg",
         mapsUrl:
-            "https://maps.app.goo.gl/8AsrLRFBL6bMMpWy8",
+            "https://maps.app.goo.gl/f3YZ4oW2QkaCLh6T7?g_st=ic",
     },
 ];
 export default function Clubs() {
